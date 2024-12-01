@@ -1,0 +1,53 @@
+Explanation of the Modifications:
+Specific Player Names:
+The player names are set to Pant, Iyer, Kohli, Dhoni, Rohit, and Rahul.
+
+Player Statistics:
+
+Batting Average: I've assigned reasonable batting averages for each player.
+Bowling Average: I set bowling averages for players like Iyer and Rahul who are known for bowling, while the others (Pant, Kohli, Dhoni, and Rohit) are primarily batters, so their bowling average is set to 0.
+Age: Realistic ages for the players.
+Past IPL Runs: Based on their performance in IPL, I assigned random values within a reasonable range.
+Past IPL Wickets: Players like Iyer and Rahul who bowl have some wickets, while the others have 0.
+Auction Prices:
+Auction prices are simulated using the batting average, past IPL runs, and wickets, with some noise added to reflect randomness.
+
+Visualizations:
+
+The bar graph (Auction Prices for Selected Players) now displays the auction prices for the specified players (Pant, Iyer, Kohli, Dhoni, Rohit, and Rahul).
+We use sns.barplot() to plot these auction prices.
+Expected Outputs:
+Dataset Preview:
+
+The dataset includes the following player names: Pant, Iyer, Kohli, Dhoni, Rohit, and Rahul along with their respective statistics (batting average, past IPL runs, etc.).
+Auction Price Distribution:
+
+A histogram of the auction prices across all players.
+Correlation Heatmap:
+
+Correlation heatmap between different player statistics and auction prices.
+Auction Price vs Batting Average (Scatter Plot):
+
+Scatter plot showing the relationship between batting average and auction price.
+Auction Price vs Player Age (Bar Plot):
+
+A bar plot comparing the auction prices with the age of the players.
+Auction Prices for Selected Players (Bar Graph):
+
+A bar plot showing the auction prices for Pant, Iyer, Kohli, Dhoni, Rohit, and Rahul.
+Players will be displayed on the X-axis, with auction prices shown as the height of the bars.
+Feature Importance:
+
+A bar plot showing which features (like batting average, age, etc.) are most important for predicting auction prices.
+Predicted Auction Price for a New Player:
+
+Predict the auction price for a new player based on their stats.
+Example of the Bar Graph Output:
+Copy code
+| Pant     | ████████████████ | 18.3 Crores |
+| Iyer     | ██████████████████████ | 22.1 Crores |
+| Kohli    | █████████████████████████████ | 30.4 Crores |
+| Dhoni    | █████████████████ | 20.5 Crores |
+| Rohit    | ███████████████ | 21.8 Crores |
+| Rahul    | ██████████████ | 19.6 Crores |
+The auction prices for each player will be displayed in the graph
